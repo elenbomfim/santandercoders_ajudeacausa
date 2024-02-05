@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="causa.css">
+    <title>Document</title>
+</head>
+
+<body>
+<header>
+    <h1>ONG: Ajude a Causa</h2>
+        <div class="button-container">
+            <a href="https://www.google.com.br/?hl=pt-BR">
+            <button onclick="location.href='pagina1.html'">Projetos</button>
+            </a>
+            <a href="https://www.google.com.br/?hl=pt-BR">
+            <button onclick="location.href='pagina2.html'">Seja um voluntário</button> 
+        </a>    
+            <a href="https://www.google.com.br/?hl=pt-BR">    
+            <button onclick="location.href='pagina2.html'">Como apoiar</button>
+        </a>
+            <a href="https://www.google.com.br/?hl=pt-BR">
+            <button onclick="location.href='pagina1.html'">Sobre nós</button> 
+        </a>
+            <a href="https://www.google.com.br/?hl=pt-BR">
+            <button onclick="location.href='pagina1.html'">Blog</button>
+        </a>
+            <a href="https://www.google.com.br/?hl=pt-BR">
+            <button onclick="location.href='pagina2.html'">Contato</button>  
+        </a>
+        
+                 
+        </div>
+<br>
+<br>
+<br>
+</header>   
+    <div class="container">
+    <div class="container">
+        <img src="https://www.eusemfronteiras.com.br/wp-content/uploads/2015/10/shutterstock_298660118-810x544.jpg" alt="Descrição da Imagem" class="imagem">       
+    </div>
+<form action="direcionamento.html">  
+<div>
+    <label for="first_name">Nome do Participante:</label>
+    <input type="text" id="first_name" name="first_name" required>
+</div> 
+<br>
+<div> 
+    <label for="number">Idade:</label>
+    <input type="number" id="number" name="number" required>
+<br>
+</div>     
+<div>
+<br>
+    <label for="email"> E-mail:</label>
+    <input type="email" id="email" name="email" required>
+<br>
+</div>
+<br>
+<div>
+    <label for="tamanho">Camiseta:</label>
+    <select id="tamanho" name="tamanho" required>
+        <option value="" disabled selected>Selecione Tamanho</option>
+        <option value="p">P</option>
+        <option value="m">M</option>
+        <option value="g">G</option>
+        <option value="gg">GG</option>
+        <option value="xg">XG</option>
+    </select>
+</div>
+<br>
+<div>
+    <label for="inscrição">Categoria de Inscrição:</label>
+    <select id="inscrição" name="inscrição" required>
+        <option value="" disabled selected>Km</option>
+        <option value="3 run">Corrida 3</option>
+        <option value="5 run">Corrida 5</option>
+        <option value=" 4 walk">Caminhada 4</option>     
+    </select>
+</div>
+<br>
+<div> 
+    <label for="valor">Valor da Doação:</label>
+    <input type="text" id="valor" name="valor" placeholder="R$ 0,00" >   
+</div>
+<br>
+<h3>Forma de Pagamento:</h3>
+
+<div>
+    <label for="Pix">
+        <input type="radio" id="metodo_pagamento" name="metodo" value="disabled" >
+        Pix (QR Code)              
+    </label>    
+<br>
+    <label for="Cartão de Crédito">
+        <input type="radio" id="metodo_pagamento" name="metodo" value="required" required>
+        Cartão de Crédito
+    </label>
+</div>
+<button type= "submit" >Publicar</button>
+</form > 
+</div> 
+<footer>
+    <p>Entre em contato: ajudeacausa@gmail.com <br>© 2024 Ong: Ajude a Causa</p> 
+</footer>
+
+</body>
+</html>

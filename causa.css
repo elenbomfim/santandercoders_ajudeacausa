@@ -1,0 +1,86 @@
+header{
+    background-color: rgb(104, 6, 74); 
+    color: white; /* Cor do texto, substitua pela cor desejada */
+    font-size: 10px; /* Tamanho da fonte, ajuste conforme necessário */
+    font-family: cursive; /* Peso da fonte, pode ser normal (400) ou bold (700) */
+    text-align: center;  /* Alinhamento do texto */
+    margin-bottom: 0px; /* Espaçamento na parte inferior do elemento */
+    padding-top: 25px;
+    margin-left: 420px;
+    margin-right:402px;
+    padding: 20px;
+    border-radius: 30px;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 28px; /* Tamanho da fonte, ajuste conforme necessário */ 
+}
+  
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-family: cursive;
+}
+form{
+    margin-top: 10px;
+    max-width: 400px;
+    margin-left: 10px;
+    padding:900px;
+    border: 1px solid #f50505;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #e69a9a; /* Substitua pela cor desejada */
+    padding: 20px;
+    border: 6px solid #ccc;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+
+}
+button {
+    background-color: rgb(104, 6, 74);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: cursive;
+}
+h3{
+    font-family: cursive;
+}
+legend{
+    font-family: cursive;
+}
+ .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Estilo para a imagem */
+.imagem {  
+    margin-right: 20px;
+    max-width: 600%;
+    height: auto;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+p{
+    margin-left: 420px;
+    margin-right:402px;
+    background-color: rgb(104, 6, 74); 
+    color: white; /* Cor do texto, substitua pela cor desejada */
+    font-size: 10px; /* Tamanho da fonte, ajuste conforme necessário */
+    font-family: cursive; 
+}
